@@ -1,0 +1,45 @@
+.header {
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    margin: 15px 0;
+
+}
+.header_logo {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+.logo-img {
+    width: 350px;
+    height: 200px;
+
+}
+.header .navi .navi-ul {
+    background-color:#fdff72;
+    padding: 10px 0;
+    text-align: center;
+    height: 15px;
+    overflow: hidden;
+}
+
+.navi-ul .navi_list {
+    display: inline-block;
+    padding: 0 5px;
+
+}
+
+.navi_link {
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    overflow: hidden;
+    display:block;
+    width:150px;
+    height:50px;
+    text-decoration: none;
+}
+.navi-ul .navi_list .navi_link:hover {
+    color:#ff8400;
+    font-size:17px;
+}

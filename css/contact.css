@@ -1,0 +1,40 @@
+
+#footer {
+    width: 100%;
+    height: 250px;
+}
+
+#contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__content-ul{
+    display: flex;
+    width: 1500px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact__content-list {
+    display: flex;
+}
+.contact-icon__img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    color:#000;
+}
+.contact-text {
+    padding: 10px 0;
+}
+.copy {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 18px;
+}

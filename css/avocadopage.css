@@ -1,0 +1,96 @@
+@import "reset.css";
+
+
+#wrap {
+    width: 1000px;
+}
+
+
+.headercont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+   
+    
+}
+.avocado_img {
+    width: 550px;
+    height: 500px;
+    margin-right: 120px;
+   
+    
+}
+.text {
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.origin {
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: block;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.red {
+    color:red;
+}
+.text-box {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.text__text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 130px;
+}
+
+.text__sub {
+    padding-left: 66px;
+}
+.button {
+    border: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn_01 {
+    background-color:#8ddd01;
+    color: #fff;
+    padding: 3px;
+}
+.btn_02,
+.btn_03 {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    color:#fff;
+    margin-top: 20px;
+}
+.btn_02 {
+    background-color: #ff6c76;
+}
+.btn_03 {
+    background-color: #6b6b6b;
+}
+
+.visual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

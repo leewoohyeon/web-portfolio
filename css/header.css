@@ -1,0 +1,39 @@
+
+ #header{
+    width: 100%;
+    height: 60px;
+    
+ }
+ 
+ .headercont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top:0;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.headercont img {
+    font-size:0;
+    margin-left: 50px;
+    width: 150px;
+    height: 30px;
+}
+.headercont nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.headercont nav ul li {
+    margin-right: 50px;
+}
+.headercont nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}

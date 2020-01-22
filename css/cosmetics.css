@@ -1,0 +1,113 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+   
+}
+.headercont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.header01__img {
+    width: 500px;
+    height: 350px;
+}
+.textbox01,
+.textbox02,
+.textbox03,
+.textbox04,
+.textbox05,
+.textbox06 {
+    display: block;
+    margin:15px 0;
+}
+.textbox01,.textbox02 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.textbox03 {
+    width: 130px;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #000;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    padding-top: 3px;
+}
+.textbox05 {
+    font-size: 18px;
+    border-top: 1px solid darkgray;
+    padding-top: 10px ;
+}
+.textbox06 {
+    font-size: 18px;
+    text-align: right;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 10px ;
+}
+
+.text {
+    font-size: 15px;
+}
+.button {
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px 5px 0px 5px;
+}
+.category {
+    display: flex;
+    justify-content: center;
+
+}
+ul {
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    margin: 15px 0;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  li {
+    display: inline-block;
+    text-align: center;
+    width: 340px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #f3f3f3;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #e1217b;
+  }
+.img01,
+.img02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img01 {
+    margin-bottom: 40px;
+   
+}

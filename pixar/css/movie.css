@@ -1,0 +1,7 @@
+.imgbox__list{
+   display: flex;
+}
+.imgbox__list-01 {
+    width: 300px;
+    height: 350px;
+}
